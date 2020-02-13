@@ -10,3 +10,5 @@ To answer two questions:
     predicting the outcome of a fight? 
 
 
+![image](https://user-images.githubusercontent.com/52289894/74459696-ae4a2b00-4e83-11ea-98d0-8f168b1ea043.png)
+![image](https://user-images.githubusercontent.com/52289894/74459724-b73afc80-4e83-11ea-9f53-0537f33029b5.png)
