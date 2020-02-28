@@ -40,9 +40,9 @@ K-means was unable to resolve clusters effectively whilst DBSCAN showed better r
 
 Interestingly the points that DBSCAN was not able to classify were also added to the parallel coordinates with the next two highest win averages but outperformed them by 15%, as well as showing significantly better infight variables. Although thisbehaviour seems bizarre DBSCAN is noted in literature for it anomaly detection ability​[6]​. When evaluating fighters in this smaller cluster it appeared to contain the majority of the UFC champions.
 
-![image](https://user-images.githubusercontent.com/52289894/75585547-45a9a380-5a6a-11ea-8637-8cb83d6e79dd.png)
+![image](https://user-images.githubusercontent.com/52289894/75585390-e9df1a80-5a69-11ea-8b41-dff1df0ee849.png)
 
 Finally plotting the win rate of all the clusters (and the noise) to answer question 1 showed no significant difference in styles win rate with the exception of the outliers cluster, which had a significantly higher performance and was thus defined as a ‘Champion’ Cluster. 
 
-![image](https://user-images.githubusercontent.com/52289894/75585390-e9df1a80-5a69-11ea-8b41-dff1df0ee849.png)
-x 
+
+![image](https://user-images.githubusercontent.com/52289894/75585547-45a9a380-5a6a-11ea-8637-8cb83d6e79dd.png)
