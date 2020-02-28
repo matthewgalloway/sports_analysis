@@ -2,7 +2,7 @@
 
 Dataset from kaggle (https://www.kaggle.com/rajeevw/ufcdata) combined with web scraping of sherdog website.
 
-## Research Questions
+## 1.0 Research Questions
 
 Statistical analysis of sports data to understand important variables for match predictions has been a study of the machine learning literature in the last 10 years[1], [2]. 
 
@@ -16,3 +16,22 @@ in to what makes a fighter successful, prompting the second research question:
 2. What are the important physical attribute and skill differences between fighters when predicting the outcome of a fight? 
 
 ![image](https://user-images.githubusercontent.com/52289894/75584702-37f31e80-5a68-11ea-913d-a3c9eda7b81d.png)
+
+
+## 2.0 Discussion
+
+Modeling method of winning as a crude approximation of style by weight class highlighted that weight was likely a factor in determining style. Higher weight divisions showed an increased likelihood fights would be won by knockout early and decreased the likelihood a fight would go to a decision.
+x x x 
+
+![image](https://user-images.githubusercontent.com/52289894/75585062-28c0a080-5a69-11ea-8d3f-1212fff2029a.png)
+
+Conceptually this made sense as the more weight behind a punch the harder the hit.
+Examining physical attribute differences showed that older fighters were less likely to win a fight, with no observable difference in height within a weight class between xwinners and losers.
+
+![image](https://user-images.githubusercontent.com/52289894/75585168-67565b00-5a69-11ea-96a6-1219dcf9ec73.png)
+
+Infight statistics were highly correlated with one another showing the first hint of skills, i.e a fighter that threw a large number of punches to the head also through a large number of punches to the body, indicating he/she was a skilled striker.
+Clustering algorithms were applied to low correlation features and evaluated over the 3 main principle components.
+
+![image](https://user-images.githubusercontent.com/52289894/75585288-9cfb4400-5a69-11ea-8ea6-79e97945c61f.png)
+
